@@ -6,7 +6,7 @@ if (!isset($_SESSION)) {
 $cart_count = isset($_SESSION['cart']) ? array_sum(array_column($_SESSION['cart'], 'quantity')) : 0; // Get total cart count
 
 // Database connection
-$pdo = new PDO("mysql:host=127.0.0.1;dbname=ecommerce;charset=utf8", "root", "");
+$pdo = new PDO("mysql:host=127.0.0.1;dbname=your_db_name;charset=utf8", "your_user", "your_password");
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 // Fetch categories from the database

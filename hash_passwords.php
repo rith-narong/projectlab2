@@ -1,5 +1,5 @@
 <?php
-$pdo = new PDO("mysql:host=127.0.0.1;dbname=ecommerce;charset=utf8", "root", "");
+$pdo = new PDO("mysql:host=127.0.0.1;dbname=your_db_name;charset=utf8", "your_user", "your_password");
 
 // Fetch all users
 $stmt = $pdo->query("SELECT id, password FROM users");

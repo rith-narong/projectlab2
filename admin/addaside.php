@@ -2,9 +2,9 @@
 // Include database connection file
 include '../db.php'; // Ensure this file initializes $conn properly
 define("HOST", "127.0.0.1");
-define("USER", "root");
-define("PWD", "");
-define("DB", "ecommerce");
+define("USER", "your_user");
+define("PWD", "your_password");
+define("DB", "your_db_name");
 
 try {
     

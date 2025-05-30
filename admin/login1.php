@@ -9,9 +9,9 @@ if (!isset($_SESSION["email"])) {
 
 // Include database connection settings
 $host = "127.0.0.1";
-$dbname = "ecommerce";
-$username = "root";
-$password = "";
+$dbname = "your_db_name";
+$username = "your_user";
+$password = "your_password";
 
 try {
     // Create a new PDO connection
